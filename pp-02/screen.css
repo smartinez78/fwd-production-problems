@@ -22,6 +22,9 @@ ul {
   padding: 0 0 0 1.222em; /* TRBL - top,right,bottom,left */
   list-style-type: circle;
 }
+p{
+  text-indent: 1.222em; 
+}
 #footer {
   padding: 1.222em 0 0 0; /* TRBL - top,right,bottom,left */
   font-style: italic;
