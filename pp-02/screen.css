@@ -14,3 +14,9 @@ html {
   padding: 1.222em 1em;
   background-image: url(22px-background.png);
 }
+h1,h2 {
+  font-weight: bold;
+}
+#footer {
+  font-style: italic;
+}
