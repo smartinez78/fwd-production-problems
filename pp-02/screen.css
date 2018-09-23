@@ -17,6 +17,11 @@ html {
 h1,h2 {
   font-weight: bold;
 }
+ul {
+  color: purple;
+  padding: 0 0 0 1.222em; /*TRBL*/
+  list-style-type: circle;
+}
 #footer {
   font-style: italic;
 }
