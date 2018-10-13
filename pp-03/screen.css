@@ -8,6 +8,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+section {
+  height: 30vw;
+}
 
 /* ==== MODULAR STYLES === */
 #three,
