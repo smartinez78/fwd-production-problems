@@ -54,7 +54,7 @@ section {
   }
 
   #three{
-    flex: 0 1 100%;
+    flex: 0 1 100vw;
   }
 }
 
