@@ -42,7 +42,21 @@ section {
 }
 
 @media screen and (min-width: 600px) {
+  #content {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+  }
 
+  #two,
+  #one {
+    flex: 1 0 50%;
+  }
+
+  #three{
+    flex: 1 0 100%;
+  }
 }
 
 @media screen and (min-width: 800px) {
