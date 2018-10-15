@@ -52,7 +52,7 @@ section {
     flex: 1 0 50vw;
   }
 
-  #three{
+  #three {
     flex: 0 1 100vw;
   }
 }
