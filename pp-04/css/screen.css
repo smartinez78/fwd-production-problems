@@ -18,6 +18,11 @@ body {
   padding: 10%;
 }
 
+label {
+  font-size: 1em;
+  display: block;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
