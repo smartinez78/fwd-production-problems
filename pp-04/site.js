@@ -13,6 +13,8 @@ function ringDoorbell() {
   }
   // replace the HTML in <figure> element with new code to create a button
   document.querySelector("#bell-sound").innerHTML = "<button id='bell-button'>Ring the Doorbell</button>";
-  // add event listener that will play audio when button is clicked by calling rinDoorbell function
+  // play audio when button is clicked by calling ringDoorbell function
   document.querySelector("#bell-button").addEventListener("click", ringDoorbell);
+  // change the cursor when hovering over the doorbell button
+  document.querySelector("#bell-button").style.cursor = "pointer";
 })(); // end of function()
