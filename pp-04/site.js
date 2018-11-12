@@ -1,3 +1,5 @@
+"use strict";
+
 // function to play doorbell audio
 function ringDoorbell() {
   var doorbell = new Audio('media/doorbell.mp3');
@@ -10,7 +12,7 @@ function ringDoorbell() {
     return;
   }
   // replace the HTML in <figure> element with new code to create a button
-  document.querySelector("#bell-sound").innerHTML = "<button id='bell-button'>Ring the Doorbell</button>"
+  document.querySelector("#bell-sound").innerHTML = "<button id='bell-button'>Ring the Doorbell</button>";
   // add event listener that will play audio when button is clicked by calling rinDoorbell function
-  document.querySelector("#bell-button").addEventListener("click",ringDoorbell)
+  document.querySelector("#bell-button").addEventListener("click", ringDoorbell);
 })(); // end of function()
