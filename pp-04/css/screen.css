@@ -23,6 +23,16 @@ label {
   display: block;
 }
 
+#bell-button {
+  height: 5em;
+  font-size: 1em;
+  color: purple;
+  background-color: #F5E7FF;
+  border-style: solid;
+  border-width: 0.25em; /* 4px / 16px = 0.25em */
+  border-color: grey;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
