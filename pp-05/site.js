@@ -33,8 +33,10 @@ console.log('The value of x is:', x);
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
 
+// define variable within the function to make it local
+
 function arrayEach(array, func) {
-  for (i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     func(array[i]);
   }
 }
@@ -54,9 +56,8 @@ function addTwo(x) {
 
 // The parameter for this function is x, meaning the value of x will be passed
 // to the function and this value will be used for the calculations performed.
-// The function returns the result to the function that called it, but it does
-// not modify the global variable because it is being used as a local variable
-// within the function.
+// Therefore the local variable, which is the value passed for x, is used
+// and not the global variable itself.
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
