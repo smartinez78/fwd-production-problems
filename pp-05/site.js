@@ -24,7 +24,6 @@ console.log('The value of x is:', x, 'It should be 5.');
 
 (function) (){
 (function double(num) {
-  var x = 5;
   var x = num * 2;
   return x;
 }
