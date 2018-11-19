@@ -22,10 +22,12 @@ console.log('The value of x is:', x, 'It should be 5.');
 
 // IIFE (Immediately Invoked Function Expression)
 
-(function double() {
+(function) (){
+(function double(num) {
   var x = 5;
-  x = x * 2;
+  var x = num * 2;
   return x;
+}
 })();
 
 console.log('The value of x is:', x);
