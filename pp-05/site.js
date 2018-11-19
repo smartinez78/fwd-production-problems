@@ -6,8 +6,8 @@
 
 var x = 5;
 
-function double(x) {
-  x = x * 2;
+function double(num) {
+  var x = num * 2;
   return x;
 }
 
@@ -51,6 +51,12 @@ function addTwo(x) {
   x = x + 2;
   return x;
 }
+
+// The parameter for this function is x, meaning the value of x will be passed
+// to the function and this value will be used for the calculations performed.
+// The function returns the result to the function that called it, but it does
+// not modify the global variable because it is being used as a local variable
+// within the function.
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
